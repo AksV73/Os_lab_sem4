@@ -1,0 +1,6 @@
+echo "Enter your Name:"
+echo "Enter registration number :"
+
+read filename
+for i in `ls *$filename`
+          echo $i
